@@ -18,12 +18,6 @@
     "corba": {
       "type": "string"
     },
-    "anayemek": {
-      "type": "component",
-      "repeatable": false,
-      "component": "anayemek.anayemek",
-      "required": true
-    },
     "yardimciyemek": {
       "type": "string"
     },
@@ -43,6 +37,12 @@
       "type": "string"
     },
     "aperatifkalori": {
+      "type": "string"
+    },
+    "birinciyemek": {
+      "type": "string"
+    },
+    "ikinciyemek": {
       "type": "string"
     }
   }
