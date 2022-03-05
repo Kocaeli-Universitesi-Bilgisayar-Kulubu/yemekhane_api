@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gun": {
+      "type": "date"
+    },
+    "corba": {
+      "type": "string"
+    },
+    "anayemek": {
+      "type": "component",
+      "repeatable": false,
+      "component": "anayemek.anayemek",
+      "required": true
+    },
+    "yardimciyemek": {
+      "type": "string"
+    },
+    "aperatif": {
+      "type": "string"
+    },
+    "corbakalori": {
+      "type": "string"
+    },
+    "byemekkalori": {
+      "type": "string"
+    },
+    "iyemekkalori": {
+      "type": "string"
+    },
+    "yardimcikalori": {
+      "type": "string"
+    },
+    "aperatifkalori": {
+      "type": "string"
+    }
+  }
+}
